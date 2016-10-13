@@ -1,4 +1,9 @@
+import * as _ from 'lodash';
+
 export const hello = (event, context, callback) => {
+
+  console.log(_.padStart("123", 5, "0"));
+
   const response = {
     statusCode: 200,
     body: JSON.stringify({

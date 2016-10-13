@@ -19,5 +19,8 @@
     "webpack": "^1.13.2",
     "webpack-node-externals": "^1.5.4"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.16.4"
+  }
 }

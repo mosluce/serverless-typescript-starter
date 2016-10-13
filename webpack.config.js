@@ -17,6 +17,10 @@ module.exports = {
         path: path.join(__dirname, '.webpack')
     },
 
+    resolve: {
+        extensions: ['', '.ts', '.js', '.json']
+    },
+
     module: {
         loaders: [
             {
