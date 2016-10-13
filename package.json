@@ -1,0 +1,23 @@
+{
+  "name": "serverless-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "serverless-webpack": "^1.0.0-rc.2",
+    "ts-loader": "^0.9.1",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "webpack": "^1.13.2",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "private": true
+}

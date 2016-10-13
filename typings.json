@@ -1,0 +1,10 @@
+{
+  "globalDependencies": {
+    "html-webpack-plugin": "registry:dt/html-webpack-plugin#2.22.2+20160802151720",
+    "node": "registry:dt/node#6.0.0+20161010101523"
+  },
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160723033700",
+    "webpack": "registry:npm/webpack#1.12.9+20160418172948"
+  }
+}
